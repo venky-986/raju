@@ -3,10 +3,10 @@ default_expiration: '2s'
 
 handlers:
 - url: /
-  static_files: serverless-bowties-1/index.html
-  upload: serverless-bowties-1/index.html
+  static_files: raju/index.html
+  upload: raju/index.html
   expiration: '2s'
 
 - url: /
-  static_dir: serverless-bowties-1 
+  static_dir: raju
   expiration: '2s'
