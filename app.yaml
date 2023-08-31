@@ -5,4 +5,9 @@ handlers:
 - url: /
   static_files: raju/index.html
   upload: raju/index.html
+  expiration: '2s'
+
+- url: /
+  static_dir: raju/index.html
+  expiration: '2s'
   
